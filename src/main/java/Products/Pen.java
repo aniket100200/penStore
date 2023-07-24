@@ -49,4 +49,12 @@ public class Pen
     public void setCost(Integer cost) {
         this.cost = cost;
     }
+    @Override
+    public String  toString(){
+        return "{"+
+                "Name:-"+this.getpId()+
+                "\n Type:-"+this.type+
+                "\n Color:-"+this.color+
+                "\n Price :-"+this.cost+"}";
+    }
 }
